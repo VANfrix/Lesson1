@@ -1,2 +1,1 @@
-name=input('Введите имя: ')
-print(Привет, name)
+def dicount
