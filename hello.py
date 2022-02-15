@@ -6,5 +6,5 @@ digits.append('python')
 count=len(digits)
 # print(count)
 # print(digits)
-print(digits[1])
+print(digits[-6])
 
