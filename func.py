@@ -11,6 +11,6 @@ def discounted(price, discount):
         price_with_discount = price-(price * discount / 100)
     return(price_with_discount)
 
-product = {'name': 'Samsung Galaxy S21', 'price': 50000.0, 'discount': 3}
+product = {'name': 'Samsung Galaxy S21', 'price': 50000.0, 'discount': 5}
 product['with_discount'] = discounted(product['price'], product['discount'])
 print(product)
