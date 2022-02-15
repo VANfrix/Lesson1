@@ -1,5 +1,4 @@
-def get_summ(one, two, delimiter='&'):
-    summ=one+delimiter+two
-    
-    print(summ)
-    
+def summ(one, two, three):
+    get_summ = one * three - two
+    print(get_summ)
+summ(2, 3, 1)
